@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="566.0" prefWidth="716.0" style="-fx-background-color: rgb(85,85,85);" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SearchGlobal.ByNameGlobal">
+    <children>
+        <ImageView fx:id="back" fitHeight="75.0" fitWidth="84.0" layoutX="154.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fx:id="Search" fitHeight="75.0" fitWidth="84.0" layoutX="478.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true" />
+        <TextField fx:id="playername" layoutX="163.0" layoutY="111.0" prefHeight="46.0" prefWidth="382.0">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </TextField>
+        <Button fx:id="nameSubmit" layoutX="478.0" layoutY="187.0" mnemonicParsing="false" onAction="#SearchPlayerName" opacity="0.0" prefHeight="75.0" prefWidth="84.0">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Button>
+        <Button fx:id="back_to_homepage" layoutX="154.0" layoutY="187.0" mnemonicParsing="false" onAction="#back" opacity="0.0" prefHeight="75.0" prefWidth="84.0">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Button>
+        <TableView fx:id="tableView" layoutX="22.0" layoutY="300.0" prefHeight="235.0" prefWidth="672.0" />
+        <Label layoutX="218.0" layoutY="65.0" prefHeight="32.0" prefWidth="279.0" text="Enter The Player Name: " textFill="#ccc4c4">
+            <font>
+                <Font name="System Bold" size="22.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="705.0" prefWidth="958.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HomeController">
+   <children>
+      <Button fx:id="message_button" layoutX="-10.0" layoutY="220.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="230.0" style="-fx-background-color: #000000;" textFill="#817b7b">
+         <font>
+            <Font name="Agency FB Bold" size="28.0" />
+         </font></Button>
+      <ImageView fx:id="logout" fitHeight="100.0" fitWidth="100.0" layoutX="50.0" layoutY="540.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="image" fitHeight="212.0" fitWidth="175.0" layoutX="14.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="button" layoutX="50.0" layoutY="540.0" mnemonicParsing="false" onAction="#logoutAction" opacity="0.0" prefHeight="100.0" prefWidth="100.0" />
+      <TableView fx:id="tableView" layoutX="231.0" layoutY="120.0" prefHeight="317.0" prefWidth="496.0" style="-fx-background-color: rgb(87,87,87); -fx-border-color: rgb(255,0,0);" />
+      <AnchorPane layoutX="744.0" layoutY="14.0" prefHeight="668.0" prefWidth="200.0" style="-fx-background-color: #000000;">
+         <children>
+            <AnchorPane layoutX="-1.0" layoutY="-6.0" prefHeight="222.0" prefWidth="200.0" style="-fx-background-color: rgb(95,95,95); -fx-border-color: rgb(0,83,41);">
+               <children>
+                  <ImageView fx:id="search" fitHeight="166.0" fitWidth="200.0" layoutX="10.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label layoutX="22.0" layoutY="168.0" prefHeight="40.0" prefWidth="122.0" text="Search " textFill="#461616">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="Search" layoutX="3.0" mnemonicParsing="false" onAction="#Search" opacity="0.0" prefHeight="222.0" prefWidth="200.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="224.0" prefHeight="222.0" prefWidth="200.0" style="-fx-background-color: rgb(95,95,95); -fx-border-color: rgb(0,83,41);">
+               <children>
+                  <ImageView fx:id="club" fitHeight="182.0" fitWidth="200.0" layoutX="3.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label layoutX="14.0" layoutY="168.0" prefHeight="40.0" prefWidth="122.0" text="Club" textFill="#461616">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="Club" mnemonicParsing="false" onAction="#Club" opacity="0.0" prefHeight="222.0" prefWidth="200.0" textFill="#e7e3e3" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="456.0" prefHeight="212.0" prefWidth="200.0" style="-fx-background-color: rgb(95,95,95); -fx-border-color: rgb(0,83,41);">
+               <children>
+                  <ImageView fx:id="transfer" fitHeight="188.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label layoutX="12.0" layoutY="182.0" prefHeight="40.0" prefWidth="187.0" text="Transfer Market" textFill="#461616">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="Transfer" layoutX="2.0" layoutY="6.0" mnemonicParsing="false" onAction="#Transfer" opacity="0.0" prefHeight="222.0" prefWidth="200.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <Label layoutX="368.0" layoutY="45.0" prefHeight="43.0" prefWidth="221.0" text="CLUB PLAYER LIST" textFill="WHITE">
+         <font>
+            <Font name="Agency FB Bold" size="35.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="488.0" layoutY="475.0" prefHeight="222.0" prefWidth="230.0" style="-fx-background-color: rgb(95,95,95); -fx-border-color: rgb(0,83,41);">
+         <children>
+            <ImageView fx:id="all" fitHeight="182.0" fitWidth="187.0" layoutX="26.0" pickOnBounds="true" preserveRatio="true" />
+            <Label layoutX="12.0" layoutY="182.0" prefHeight="40.0" prefWidth="206.0" text="Search in all clubs" textFill="#461616">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="SearchG" layoutX="4.0" mnemonicParsing="false" onAction="#SearchGlobal" opacity="0.0" prefHeight="222.0" prefWidth="222.0" text="Button" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

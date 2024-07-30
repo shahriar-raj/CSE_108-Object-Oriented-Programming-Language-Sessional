@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: rgb(105,105,105);" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Club.MaxSalary">
+   <children>
+      <TableView fx:id="tableView" layoutY="94.0" prefHeight="178.0" prefWidth="700.0" />
+      <Label layoutX="218.0" layoutY="40.0" prefHeight="38.0" prefWidth="263.0" text="MAXIMUM SALARY PAGE" textFill="WHITE">
+         <font>
+            <Font name="Agency FB Bold" size="30.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="218.0" layoutY="290.0" prefHeight="73.0" prefWidth="263.0">
+         <children>
+            <ImageView fx:id="exit" fitHeight="94.0" fitWidth="138.0" layoutX="63.0" pickOnBounds="true" preserveRatio="true" />
+            <Button layoutY="-1.0" mnemonicParsing="false" onAction="#Exit" opacity="0.0" prefHeight="96.0" prefWidth="263.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

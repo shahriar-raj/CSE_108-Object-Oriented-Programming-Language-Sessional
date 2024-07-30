@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="566.0" prefWidth="716.0" style="-fx-background-color: rgb(85,85,85);" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SearchPlayer.BySalary">
+    <children>
+      <ImageView fx:id="back" fitHeight="75.0" fitWidth="84.0" layoutX="186.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Search" fitHeight="75.0" fitWidth="84.0" layoutX="451.0" layoutY="196.0" pickOnBounds="true" preserveRatio="true" />
+        <TextField fx:id="low_salary" layoutX="293.0" layoutY="50.0" prefHeight="42.0" prefWidth="200.0">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="high_salary" layoutX="293.0" layoutY="120.0" prefHeight="42.0" prefWidth="200.0">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </TextField>
+        <Button fx:id="SalarySubmit" layoutX="451.0" layoutY="196.0" mnemonicParsing="false" onAction="#SearchPlayerSalary" opacity="0.0" prefHeight="75.0" prefWidth="84.0">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Button>
+        <Button fx:id="back_to_homepage" layoutX="186.0" layoutY="194.0" mnemonicParsing="false" onAction="#back" opacity="0.0" prefHeight="75.0" prefWidth="84.0">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Button>
+      <TableView fx:id="tableView" layoutX="22.0" layoutY="316.0" prefHeight="235.0" prefWidth="672.0" />
+      <Label layoutX="148.0" layoutY="57.0" prefHeight="32.0" prefWidth="76.0" text="From:" textFill="#ccc4c4">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="148.0" layoutY="127.0" prefHeight="32.0" prefWidth="76.0" text="To:" textFill="#ccc4c4">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
