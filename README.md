@@ -69,3 +69,44 @@ To compile and run the assignments, ensure you have the following:
    ```bash
    git clone https://github.com/shahriar-raj/CSE_108-Object-Oriented-Programming-Language-Sessional.git
    cd CSE_108-Object-Oriented-Programming-Language-Sessional
+
+### Assignment Overview
+1. Assignment 1 : This is the first offline assignment for the CSE 108 (Object Oriented Programming) sessional course. The task involves completing a C++ code template involving basic OOP principles such as:
+
+    Class creation and encapsulation using Point and Circle
+
+    Constructor overloading and method definition
+
+    Overloading an update function for positional and radius updates
+
+    Extension task: Creating a new class Line using two Point instances and calculating its length
+
+The final output demonstrates object state changes through a sequence of updates. The goal is to match the expected formatted output precisely, without modifying the given code structure.
+
+2. Assignment 2 : This is the second offline assignment for the CSE 108 (Object Oriented Programming) sessional course. It focuses on dynamic memory handling, deep copying, and object interaction between classes:
+
+    Book class: Predefined; handles book attributes and operations like edition generation and identity checking.
+
+    BookShop class: Implemented by the student to support:
+
+        Adding/removing books
+
+        Updating prices by ISBN
+
+        Searching by title
+
+        Merging two bookshops
+
+        Copy constructor and dynamic array management
+
+Key Concepts Practiced
+
+    Dynamic memory allocation & destructors
+
+    Deep copying vs shallow copying
+
+    Class composition and array manipulation
+
+    Realistic object-based interaction simulations
+
+The output of the program must exactly match the sample output provided in BookShop.cpp, using both individual and batch operations on books.
