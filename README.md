@@ -71,7 +71,7 @@ To compile and run the assignments, ensure you have the following:
    cd CSE_108-Object-Oriented-Programming-Language-Sessional
 
 ### Assignment Overview
-1. Assignment 1 : This is the first offline assignment for the CSE 108 (Object Oriented Programming) sessional course. The task involves completing a C++ code template involving basic OOP principles such as:
+<b> 1. Assignment 1 : </b> This is the first offline assignment for the CSE 108 (Object Oriented Programming) sessional course. The task involves completing a C++ code template involving basic OOP principles such as:
 
     Class creation and encapsulation using Point and Circle
 
