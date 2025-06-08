@@ -83,7 +83,7 @@ To compile and run the assignments, ensure you have the following:
 
 The final output demonstrates object state changes through a sequence of updates. The goal is to match the expected formatted output precisely, without modifying the given code structure.
 
-2. Assignment 2 : This is the second offline assignment for the CSE 108 (Object Oriented Programming) sessional course. It focuses on dynamic memory handling, deep copying, and object interaction between classes:
+<b> 2. Assignment 2 : </b> This is the second offline assignment for the CSE 108 (Object Oriented Programming) sessional course. It focuses on dynamic memory handling, deep copying, and object interaction between classes:
 
     Book class: Predefined; handles book attributes and operations like edition generation and identity checking.
 
@@ -111,7 +111,7 @@ Key Concepts Practiced
 
 The output of the program must exactly match the sample output provided in BookShop.cpp, using both individual and batch operations on books.
 
-3. Assignment 3 : This is the third offline assignment for the CSE 108 (Object Oriented Programming) sessional course. The focus of this task is on operator overloading in user-defined types to mimic mathematical vector operations.
+<b> 3. Assignment 3 : </b> This is the third offline assignment for the CSE 108 (Object Oriented Programming) sessional course. The focus of this task is on operator overloading in user-defined types to mimic mathematical vector operations.
 Features Implemented
 
     A custom Vector class with:
@@ -134,7 +134,7 @@ Objective
 
 Match the exact sample output provided by using operator overloading in a mathematically consistent way, while strictly adhering to the given template and constraints.
 
-4. Assignment 4 : This repository contains a Java project developed as part of an academic assignment. It models a simple sports league management system using object-oriented principles.
+<b> 4. Assignment 4 : </b> This repository contains a Java project developed as part of an academic assignment. It models a simple sports league management system using object-oriented principles.
 📁 Project Structure
 
     League.java
