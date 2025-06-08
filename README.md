@@ -110,3 +110,62 @@ Key Concepts Practiced
     Realistic object-based interaction simulations
 
 The output of the program must exactly match the sample output provided in BookShop.cpp, using both individual and batch operations on books.
+
+3. Assignment 3 : This is the third offline assignment for the CSE 108 (Object Oriented Programming) sessional course. The focus of this task is on operator overloading in user-defined types to mimic mathematical vector operations.
+Features Implemented
+
+    A custom Vector class with:
+
+        Dynamically allocated name
+
+        Overloaded operators:
+
+            ^ for cross product
+
+            * for scalar multiplication and component-wise multiplication
+
+            == for equality check
+
+    Custom output via a print() method (assumed implemented)
+
+    Memory management with dynamic allocation and proper destructor
+
+Objective
+
+Match the exact sample output provided by using operator overloading in a mathematically consistent way, while strictly adhering to the given template and constraints.
+
+4. Assignment 4 : This repository contains a Java project developed as part of an academic assignment. It models a simple sports league management system using object-oriented principles.
+📁 Project Structure
+
+    League.java
+    Manages the overall league, storing a collection of matches and computing summaries like total goals, top scorers, or standings.
+
+    Match.java
+    Represents individual matches, including teams, scores, and date/time information. May also support comparison or filtering logic.
+
+    Main.java
+    Entry point of the application. Likely responsible for initializing the league, adding matches, and invoking summary or display methods.
+
+🧠 Core Concepts Demonstrated
+
+    Object-oriented design with multiple interacting classes (League, Match)
+
+    Encapsulation and data abstraction
+
+    Use of collections (e.g., arrays, ArrayList)
+
+    Input/output handling (console or file-based)
+
+    Basic statistics aggregation (e.g., total scores, win counts, etc.)
+
+🚀 Example Features (Expected)
+
+    Add a match to the league
+
+    Display all matches
+
+    Calculate total/average goals
+
+    Display match summaries
+
+    Identify highest scoring team or player
